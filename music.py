@@ -174,7 +174,7 @@ plt.ylabel('X (dBV)');
 # Range - Azimuth Polar Plot
 fig30 = plt.figure(30, figsize=(9, 9));
 # Positions for polar plot of cost function
-vU = np.linspace(-np.pi / 2, np.pi / 2, NFFTAnt);
+vU = vAngDeg * np.pi/180.;
 mU, mRange = np.meshgrid(vU, vRangeExt);
 ax = fig30.add_subplot(111, projection='polar');
 # # normalize cost function
