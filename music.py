@@ -38,7 +38,7 @@ def synthetic_signal(M):
     rk = np.dot(r,k);
     A = np.exp(np.multiply(rk,-1j));
     # Additive noise
-    sigma2 = 144.0; # Noise variance
+    sigma2 = 1.0; # Noise variance
     n = np.sqrt(sigma2)*(np.random.rand(NrChn-1,N) + 1j*np.random.rand(NrChn-1,N))/np.sqrt(2);
     # Received signal
     tt = np.linspace(1,N,N);
