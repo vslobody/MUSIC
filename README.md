@@ -13,7 +13,7 @@ For the description of the python code, please check the MUSIC depository on the
 
 The code can process either real radar scan, or synthetic radar image. In order to process synthetic image, we need to comment out line 149:
 
-d31 = real_signal();#real signal;
+<b>d31 = real_signal();#real signal;</b>
 
 Script is outputting multiple plots:
 
