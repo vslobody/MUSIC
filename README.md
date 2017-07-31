@@ -17,7 +17,7 @@ The code can process either real radar scan, or synthetic radar image. In order 
 
 Script is outputting multiple plots:
 
-Time Series Plot
-Range Plot (Based on FFT of the Time Series from individual antenna)
-Range-Azimuth Plot in Polar coordinates.
-Plot comparing MUSIC vs DBF accuracy of the peak finding.
+Time Series Plot.<br>
+Range Plot (Based on FFT of the Time Series from individual antenna).<br>
+Range-Azimuth Plot in Polar coordinates.<br>
+Plot comparing MUSIC vs DBF accuracy of the peak finding.<br>
