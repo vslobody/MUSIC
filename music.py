@@ -118,7 +118,7 @@ plt.close("all");
 N = 2000;  # number of points in the scan
 N_Corrupted = 100;  # first points are removed from processing as they are corrupted
 fs = 4e6;  # sampling rate
-FuSca = 6.8808e-6;  # normalization coeeficient
+FuSca = 6.8808e-6;  # normalization coefficient
 c0 = 3e8;#speed of light 
 N = N - N_Corrupted;#removing corrupted points
 NrChn = 32;#number of antennas
